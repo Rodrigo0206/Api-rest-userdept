@@ -1,5 +1,10 @@
 package com.apirest.userdept.entities;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "tb_user")
+
 public class User {
 
     private Long id ;
