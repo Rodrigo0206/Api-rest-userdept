@@ -1,4 +1,4 @@
-package com.apirest.userdept.repository;
+package com.apirest.userdept.repositories;
 
 import com.apirest.userdept.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
