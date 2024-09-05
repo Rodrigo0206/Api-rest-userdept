@@ -1,4 +1,5 @@
 import com.apirest.userdept.entities.Calculadora;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class CalculadoraTest {
@@ -7,7 +8,7 @@ public class CalculadoraTest {
     public void somaDoisNumeros(){
         Calculadora calculadora = new Calculadora();
         int soma = calculadora.soma(10,20);
-        System.out.println(soma);
+        Assertions.assertEquals(30,soma);
     }
 
 }
